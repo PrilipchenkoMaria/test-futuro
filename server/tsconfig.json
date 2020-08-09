@@ -4,7 +4,8 @@
       "module": "commonjs",
       "lib": [
          "es5",
-         "es6"
+         "es6",
+         "dom"
       ],
       "sourceMap": true,
       "outDir": "./dist",
@@ -19,7 +20,9 @@
       "noImplicitReturns": true,
       "noFallthroughCasesInSwitch": true,
       "emitDecoratorMetadata": true,
-      "experimentalDecorators": true
+      "experimentalDecorators": true,
+      "allowSyntheticDefaultImports": false,
+      "skipLibCheck": true,
    },
    "exclude": ["node_modules"],
    "include": ["./src/**/*.tsx", "./src/**/*.ts"]
