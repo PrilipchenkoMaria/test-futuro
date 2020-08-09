@@ -9,8 +9,15 @@
   "author": "Maria Prylypchenko",
   "license": "ISC",
   "dependencies": {
+    "apollo-server-express": "^2.16.1",
+    "class-validator": "^0.12.2",
+    "express": "^4.17.1",
+    "graphql": "^15.3.0",
+    "pg": "^8.3.0",
     "ts-node": "^8.10.2",
+    "type-graphql": "^1.0.0-rc.3",
     "typeorm": "^0.2.25",
     "typescript": "^3.9.7"
-  }
+  },
+  "devDependencies": {}
 }
